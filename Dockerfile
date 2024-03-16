@@ -1,4 +1,4 @@
-FROM faborange/webconsole-base:latest AS builder
+FROM 5ggraduationprojectfaborange/webconsole-base:latest AS builder
 FROM bitnami/minideb:bullseye
 
 LABEL description="Free5GC open source 5G Core Network" \
