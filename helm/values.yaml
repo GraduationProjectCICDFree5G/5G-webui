@@ -51,7 +51,7 @@ webui:
   name: webui
   replicaCount: 1
   image:
-    name: 5ggraduationproject/5g-webconsole
+    name: towards5gs/free5gc-webui
     pullPolicy: Always
   service:
     name: webui-service
